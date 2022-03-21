@@ -1,0 +1,117 @@
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.logo{
+    width: 80px;
+    height: 55px;
+    margin-right: 200px;
+}
+
+body{
+    font-family: Verdana;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.textbox{
+    background: #000000; 
+    color: #ffffff;
+    font-weight: bold; 
+    padding: 10px; 
+    border: 2px solid #bdfae6; 
+    border-radius: 6px;
+    border-left: 5px solid #ff0080;
+    border-top-left-radius:8px; border-bottom-left-radius:8px;
+}
+
+.button {
+    background-color: #9fa39f;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 11px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.buscarForm{
+    float: right;
+    margin-top: 18px;
+    margin-left: 100px;
+}
+
+.articulos{
+    background-color: #9fa39f;
+}
+
+.imgCatalogo{
+    width: 240px;
+    height: 240px;
+}
+
+section{
+    text-align: center;
+}
+
+section article{
+    width:30%;
+    height: 330px;
+    margin: 1%;
+    float: left;
+}
+
+section article h3{
+    text-align: center;
+    margin: 2%;
+}
+
+footer{
+    background-color: #9fa39f;
+    padding: 15px;
+    text-align: justify;
+}
+
+footer a{
+    text-align: right;
+    text-size-adjust: auto;
+}
+
+.contacto{
+    padding: 150px;
+    align-self: center;
+    clear: both;
+}
+
+td{
+    align-self: center;
+    clear: both;
+}
+
+.boton{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 3.5px;
+    border: 2px solid #000000;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .boton:hover {
+        background-color: #ffffff; /* Green */
+        color: rgb(0, 0, 0);
+    }
