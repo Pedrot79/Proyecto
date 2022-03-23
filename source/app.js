@@ -12,7 +12,7 @@ app.set('views',path.join(__dirname, 'views'));
 app.engine('html', require('ejs').renderFile);
 
 //Recursos publicos
-app.use(express.static(path.join(__dirname + '../public')));
+app.use(express.static(path.join(__dirname,'public')));
 
 //Router
 app.use(misRutas);
