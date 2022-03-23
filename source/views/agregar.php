@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<%-include('partials/head.html')%>
 <body>
     <form action="agregar2.php" method="post">
         <p>Alta en agenda</p>
