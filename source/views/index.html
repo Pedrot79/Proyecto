@@ -1,28 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
 <%-include('partials/head.html')%>
 <body>
     <header> 
         <%-include('partials/navegacion.html');%> 
     </header>
-    <div class="container">
+    <div class="container" style="text-align: center; max-width: 0 auto;">
         <section>
             <h2>Novedades</h2>
-            <article>
+            <article class="articles">
                 <br>
                 <h4>Tenis Forum 84 Hi</h4>
                 <img src="img/tenis1.jpg" alt="" class="imgCatalogo">
                 <h5>$2,999</h5>
             </article>
     
-            <article>
+            <article class="articles">
                 <br>
                 <h4>Tenis Forum Low</h4>
                 <img src="img/tenis2.jpg" alt="" class="imgCatalogo">
                 <h5>$2,199</h5>
             </article>
     
-            <article>
+            <article class="articles">
                 <br>
                 <h4>Tenis U_Path Run</h4>
                 <img src="img/teni3.jpg" alt="" class="imgCatalogo">
@@ -31,21 +30,21 @@
         </section>
     
         <section>
-            <article>
+            <article class="articles">
                 <br>
                 <h4>Chamarra SST Primeblue</h4>
                 <img src="img/chamarra.jpg" alt="" class="imgCatalogo">
                 <h5>$1,599</h5>
             </article>
     
-            <article>
+            <article class="articles">
                 <br>
                 <h4>Chamarra SST Primeblue</h4>
                 <img src="img/chamarra1.jpg" alt="" class="imgCatalogo">
                 <h5>$1,599</h5>
-            </article>
+            </article class="articles">
     
-            <article>
+            <article class="articles">
                 <br>
                 <h4>Pants Deportivos SST Primeblue</h4>
                 <img src="img/pants.jpg" alt="" class="imgCatalogo">
@@ -54,21 +53,21 @@
         </section>
     
         <section>
-            <article>
+            <article class="articles">
                 <br>
                 <h4>Pants Deportivos SST Primeblue</h4>
                 <img src="img/pants2.jpg" alt="" class="imgCatalogo">
                 <h5>$1,399</h5>
             </article>
     
-            <article>
+            <article class="articles">
                 <br>
                 <h4>Mochila Classic Badge of Sport (UNISEX)</h4>
                 <img src="img/mochila.jpg" alt="" class="imgCatalogo">
                 <h5>$419.30</h5>
-            </article>
+            </article class="articles">
     
-            <article>
+            <article class="articles">
                 <br>
                 <h4>Playera Designed to Move Estampada</h4>
                 <img src="img/camisa.jpg" alt="" class="imgCatalogo">
@@ -76,6 +75,8 @@
             </article>
         </section>
     </div>
-    <%-include('partials/footer.html');%>
 </body>
+<div>
+    <%-include('partials/footer.html');%>
+</div>
 </html>
