@@ -8,18 +8,6 @@ header{
 .logo{
     width: 80px;
     height: 55px;
-    margin-right: 200px;
-}
-
-body{
-    font-family: Verdana;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    margin-left: 4px;
-    margin-right: 4px;
 }
 
 .textbox{
@@ -33,17 +21,6 @@ a{
     border-top-left-radius:8px; border-bottom-left-radius:8px;
 }
 
-.button {
-    background-color: #9fa39f;
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 11px 28px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 5px;
-}
 
 .buscarForm{
     float: right;
@@ -74,17 +51,6 @@ section article{
 section article h3{
     text-align: center;
     margin: 2%;
-}
-
-footer{
-    background-color: #9fa39f;
-    padding: 15px;
-    text-align: justify;
-}
-
-footer a{
-    text-align: right;
-    text-size-adjust: auto;
 }
 
 .contacto{
