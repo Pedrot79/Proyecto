@@ -1,0 +1,63 @@
+<%-include('partials/head.html');%>
+
+<body>
+    <header><%-include('partials/navegacion.html');%></header>
+
+    <div class="contenedor"></div>
+    <div class="historia">
+
+        
+
+    <form action="registro.php" class="contactus" method="POST">
+        <h1>CONTACTANOS</h1>
+        <table>
+            <tr>
+                <td>
+                    NOMBRE:
+                </td>
+                <td>
+                    <label for="name"></label>
+                    <input type="text" name="nombre" class="textbox" id="name" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    CORREO:  
+                </td>
+                <td>
+                    <label for="email"></label>
+                    <input type="text" name="correo" class="textbox" id="email" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    TELEFONO:
+                </td>
+                <td>
+                    <label for="number"></label>
+                    <input type="text" name="telefono" class="textbox" id="number" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    MENSAJE:
+                </td>
+                <td>
+                    <label for="mens"></label>
+                    <input type="text" name="mensaje" class="textbox" id="mens" required /><BR>
+                    
+                </td>
+                <tr>
+                    <td>
+                        <input class="boton" type="submit"  name="Registrarse"value="ENVIAR">
+                    </td>
+                </tr>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+
+<footer>
+    <%-include('partials/footer.html');%>
+</footer>
